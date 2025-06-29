@@ -1,3 +1,5 @@
 baseURL = 'https://example.org/'    # domain name for site. hugo uses this to build absolute URLs
 languageCode = 'en-us'
 title = 'My Portfolio Site'          # Used in layouts
+
+theme = 'docsite'
