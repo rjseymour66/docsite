@@ -2,4 +2,13 @@
 
   {{ .Content }}
   
+  <h2>Most recent project</h3>
+  
+
+    {{ $recent := first 1 (sort (where .Site.RegularPages "Section" "projects") "Date" "desc") }}
+      {{ with index $recent 0 }}
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <!-- <p>{{ .Summary }}</p> -->
+    {{ end }}
+  
 {{ end }}
