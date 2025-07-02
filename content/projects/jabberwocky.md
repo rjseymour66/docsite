@@ -1,13 +1,10 @@
 +++
 title = "Jabberwocky"
 draft = false
+image = "https://placehold.co/640x150"
+alt_text = "Jabberwocky screenshot"
+summary = "Summary of the Jabberwocky project"
+tech_used =  ["Javascript", "CSS", "HTML"]
 +++
 
-![alt](https://placehold.co/640x150)
-
-Description...
-
-### Tech used
-- item
-- item
-- item
+Description of the Jabberwocky project...

@@ -3,3 +3,7 @@ languageCode = 'en-us'
 title = 'My Portfolio Site'          # Used in layouts
 
 theme = 'docsite'
+
+[params]
+  author = "Arthur Gname"
+  description = "My portfolio site"

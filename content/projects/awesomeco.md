@@ -1,13 +1,10 @@
 +++
 title = "Awesomeco"
 draft = false
+image = "https://placehold.co/640x150"
+alt_text = "Awesomeco screenshot"
+summary = "Summary of the Awesomeco project"
+tech_used =  ["Javascript", "CSS", "HTML"]
 +++
 
-![alt](https://placehold.co/640x150)
-
-Description...
-
-### Tech used
-- item
-- item
-- item
+Description of the Awesomeco project...
