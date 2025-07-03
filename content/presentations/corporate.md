@@ -1,6 +1,7 @@
 +++
 title = "Corporate"
 draft = false
+keywords = ['presentation', 'corporate', 'key points']
 +++
 
 ![alt](https://placehold.co/640x150)

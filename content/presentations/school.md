@@ -1,6 +1,7 @@
 +++
 title = "School"
 draft = false
+keywords = ['presentation', 'school', 'key points']
 +++
 
 ![alt](https://placehold.co/640x150)

@@ -7,3 +7,9 @@ theme = 'docsite'
 [params]
   author = "Arthur Gname"
   description = "My portfolio site"
+
+  gh_url = "https://api.github.com/users"
+  gh_user = "rjseymour66"
+
+[outputs]
+section = ["HTML", "JSON", "RSS"]

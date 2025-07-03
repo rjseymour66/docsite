@@ -7,7 +7,7 @@
 .container {
   margin: 0 auto;
   width: 80%;
-  height: 100svh;
+  min-height: 100svh;
 }
 
 nav,
@@ -43,4 +43,37 @@ nav > a {
   .project-container .project {
     flex: 1;
   }
+}
+
+.oss {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.oss article {
+  border: 1px solid #ddd;
+  box-shadow: 3px 3px 3px #ddd;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 30%;
+}
+
+footer > .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+
+  list-style: none;
+}
+
+.social-links > li {
+  font-size: 0.875rem;
+  color: inherit;
+}
+
+.social-links > li > a {
+  display: inline-block;
+  color: inherit;
+  margin-block-end: 0.5em;
 }

@@ -1,1 +1,2 @@
-<small>Copyright {{ now.Format "2006" }}. All rights reserved.</small>
+<small>Copyright {{ now.Format "2006" }} {{ .Site.Params.author }}. All rights reserved.</small>
+{{- partial "footer-links.html" . -}}
