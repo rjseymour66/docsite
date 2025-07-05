@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'My Portfolio Site'          # Used in layouts
 
 theme = 'docsite'
+pygmentsUseClasses = true
 
 [params]
   author = "Arthur Gname"
@@ -13,3 +14,14 @@ theme = 'docsite'
 
 [outputs]
 section = ["HTML", "JSON", "RSS"]
+
+[permalinks]
+  posts = "posts/:year/:month/:slug"
+  year = "/posts/:slug"
+  month = "/posts/:slug"
+
+[taxonomies]
+  year = "year"
+  month = "month"
+  tag = "tags"
+  category = "categories"

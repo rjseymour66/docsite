@@ -77,3 +77,12 @@ footer > .social-links {
   color: inherit;
   margin-block-end: 0.5em;
 }
+
+a.tag {
+  background-color: #ddd;
+  color: #333;
+  display: inline-block;
+  padding: 0.1em;
+  font-size: 0.9em;
+  text-decoration: none;
+}
