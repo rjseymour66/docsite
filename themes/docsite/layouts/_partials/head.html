@@ -23,7 +23,8 @@
         {{ .Title }} - {{ .Site.Title }}
     {{- end -}}
 </title>
-<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+{{ $css := resources.Get "css/style.scss" | toCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
 <link rel="stylesheet" href="{{ "css/syntax.css" | relURL }}">
 
 {{ range .AlternativeOutputFormats -}}
