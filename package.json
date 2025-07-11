@@ -1,0 +1,19 @@
+{
+  "name": "docsite",
+  "version": "1.0.0",
+  "description": "Docsite theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjseymour66/docsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rjseymour66/docsite/issues"
+  },
+  "homepage": "https://github.com/rjseymour66/docsite#readme"
+}
