@@ -1,4 +1,6 @@
 @import "navbar";
+@import "projects";
+@import "variables";
 
 *,
 *::before,
@@ -14,21 +16,9 @@
 
 nav,
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: $bg-color;
+  color: $white;
   text-align: center;
-}
-
-@media only screen and (min-width: 768px) {
-  .project-container {
-    display: flex;
-  }
-  .project-container .project-list {
-    width: 20%;
-  }
-  .project-container .project {
-    flex: 1;
-  }
 }
 
 .oss {
@@ -38,8 +28,8 @@ footer {
 }
 
 .oss article {
-  border: 1px solid #ddd;
-  box-shadow: 3px 3px 3px #ddd;
+  border: 1px solid $white-2;
+  box-shadow: 3px 3px 3px $white-2;
   margin: 0.5rem;
   padding: 0.5rem;
   width: 30%;
@@ -65,8 +55,8 @@ footer > .social-links {
 }
 
 a.tag {
-  background-color: #ddd;
-  color: #333;
+  background-color: $white-2;
+  color: $bg-color;
   display: inline-block;
   padding: 0.1em;
   font-size: 0.9em;
@@ -88,7 +78,7 @@ a.tag {
 }
 
 .pagination > .page-item {
-  border: 1px solid #ddd;
+  border: 1px solid $white-2;
   flex: 1;
   text-align: center;
   width: 5em;
@@ -101,15 +91,15 @@ a.tag {
 }
 
 .pagination > .page-item.active {
-  background-color: #333;
+  background-color: $bg-color;
 }
 
 .pagination > .page-item.active > .page-link {
-  color: #fff;
+  color: $white;
 }
 
 .pagination > .page-item.disabled > .page-link {
-  color: #ddd;
+  color: $white-2;
 }
 
 figure img {
