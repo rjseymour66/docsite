@@ -1,5 +1,7 @@
 'use strict';
 
+import lunr from 'lunr';
+
 const SearchApp = {
     searchField: document.querySelector("#searchField"),
     searchButton: document.querySelector("#searchButton"),

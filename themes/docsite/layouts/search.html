@@ -11,11 +11,11 @@
         <p>Waiting for search input</p>
     </div>
     
-    {{ $lunr := resources.Get "js/lunr.js" }}
+    <!-- {{ $lunr := resources.Get "js/lunr.js" }}
     {{ $search := resources.Get "js/search.js" }}
 
-    {{ $libs := slice $lunr $search }}
-    {{ $js := $libs | resources.Concat "js/app.js" | minify | fingerprint }}
+    {{ $libs := slice $lunr $search }} -->
+    {{ $js := resources.Get "js/app.js" | minify | fingerprint }}
     <script src="{{ $js.RelPermalink }}"></script>
 
 {{ end }}
