@@ -5,3 +5,5 @@ title = 'About'
 +++
 
 This is my about page.
+
+![This is an image](/hugo-logo-wide.svg)

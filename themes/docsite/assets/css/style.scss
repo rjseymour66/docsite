@@ -111,3 +111,8 @@ a.tag {
 .pagination > .page-item.disabled > .page-link {
   color: #ddd;
 }
+
+figure img {
+  max-width: 100%;
+  height: auto;
+}

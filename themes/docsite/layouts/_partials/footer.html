@@ -1,2 +1,9 @@
 <small>Copyright {{ now.Format "2006" }} {{ .Site.Params.author }}. All rights reserved.</small>
+<p>Powered by
+    <div>
+        <a href="https://gohugo.io">
+            <img src="{{ "hugo-logo-wide.svg" | relURL }}" alt="image" width="128" height="38">
+        </a>
+    </div>
+</p>
 {{- partial "footer-links.html" . -}}
